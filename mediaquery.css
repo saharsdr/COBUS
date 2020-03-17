@@ -1,0 +1,165 @@
+
+/* ##################### Navbar ####################### */
+@media screen and (max-width:680px){
+    nav ul.nav li{
+        display: none;
+    }
+    nav ul.nav li#one{
+        display: block;
+        float: left;
+    }
+    ul.nav li.openMenu{
+        display: block;
+        float: right;
+    }
+    header.normal.un{
+        background-image: linear-gradient(to bottom, rgba(43,41,52,.99),
+        rgba(24,22,33,0.95)),url(mountain1.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    ul.nav.drop{
+        display: block;
+        
+    }
+    ul.nav.drop div.right{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);  
+    }
+
+    ul.nav.drop li{
+        display: inline;
+        float: none;
+    }
+    ul.nav.drop li div.right a{
+        display: block;
+        text-align: center;
+        
+    }
+    div.text-box.hide{
+        display: none;
+      
+    }
+    ul.nav.drop li.openMenu{
+        display: none;
+    }
+    ul.nav.drop li.closeMenu{
+        display: block;
+        float: right;
+        position: absolute;
+        top:0;
+        right: 10;
+    }
+}
+
+/* ##################### Mobile ####################### */
+@media all and (max-width: 576px){
+    .row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .row::after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+    
+    div.col-md-1{width: 8.33%;}
+    div.col-md-2{width: 16.66%;}
+    div.col-md-3{width: 25%;}
+    div.col-md-4{width: 33.33%;}
+    div.col-md-5{width: 41.66%;}
+    div.col-md-6{width: 50%;}
+    div.col-md-7{width: 58.33%;}
+    div.col-md-8{width: 66.66%;}
+    div.col-md-9{width: 75%;}
+    div.col-md-10{width: 83.33%;}
+    div.col-md-11{width: 91.66%;}
+    div.col-md-12{width: 100%;}
+    
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 4% 0;
+    }
+}
+
+/* ##################### Tablet ####################### */
+@media all and (max-width: 768px){
+    main.container{
+        height: 115%;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .row::after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+    
+    .col-lg-1{width: 8.33%;}
+    .col-lg-2{width: 16.66%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-4{width: 33.33%;}
+    .col-lg-5{width: 41.66%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-7{width: 58.33%;}
+    .col-lg-8{width: 66.66%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-10{width: 83.33%;}
+    .col-lg-11{width: 91.66%;}
+    .col-lg-12{width: 100%;}
+    
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 4% 0;
+    }
+
+}
+
+/* ##################### Full Screen ####################### */
+@media all and (min-width: 769px){
+    .row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .row::after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+    
+    .col-xl-1{width: 8.33%;}
+    .col-xl-2{width: 16.66%;}
+    .col-xl-3{width: 25%;}
+    .col-xl-4{width: 33.33%;}
+    .col-xl-5{width: 41.66%;}
+    .col-xl-6{width: 50%;}
+    .col-xl-7{width: 58.33%;}
+    .col-xl-8{width: 66.66%;}
+    .col-xl-9{width: 75%;}
+    .col-xl-10{width: 83.33%;}
+    .col-xl-11{width: 91.66%;}
+    .col-xl-12{width: 100%;}
+    
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 4% 0;
+    }
+
+}
